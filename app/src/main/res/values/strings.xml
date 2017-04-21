@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JavDev</string>
+    <string name="title_activity_profile_details">ProfileDetailsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share">Share</string>
+    <string name="error_network_unavailable">It looks like your network is down, kindly try again when your connection is restored</string>
+    <string name="github_error">Oops, something went wrong, try again</string>
+</resources>

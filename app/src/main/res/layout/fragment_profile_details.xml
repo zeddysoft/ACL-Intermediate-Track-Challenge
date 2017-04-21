@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zeddysoft.com.javdev.javaDevDetail.ProfileDetailsFragment"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/frag_profile_image"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        app:civ_border_color="#FF000000"/>
+
+
+    <TextView
+        android:id="@+id/frag_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zeddysoft"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/frag_github_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        android:textSize="18sp"
+        android:background="@drawable/white_btn_bg"
+        android:drawableLeft="@drawable/share"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
